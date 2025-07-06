@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "family-tree"
+version = "0.1.0"
+description = "Generate and visualize a family tree with Graphviz"
+authors = [{ name = "Ian Sweeney" }]
+dependencies = [
+    "graphviz"
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true

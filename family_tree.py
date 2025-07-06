@@ -1,7 +1,7 @@
 from graphviz import Digraph
 
 class Person:
-    def __init__(self, name, relation):
+    def __init__(self, name:str, relation:str):
         self.name = name
         self.relation = relation
         self.father = None

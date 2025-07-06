@@ -11,5 +11,10 @@ dependencies = [
     "graphviz"
 ]
 
+[tool.hatch.envs.default]
+dependencies = [
+    "graphviz"
+]
+
 [tool.hatch.metadata]
 allow-direct-references = true
